@@ -1,11 +1,11 @@
-🚀 Full Stack CRUD Application
+# 🚀 Full Stack CRUD Application
 
 This repository contains a Full Stack User Management Web Application that performs Create, Read, Update, and Delete (CRUD) operations using React, Spring Boot, and MySQL.
 
 It demonstrates complete frontend–backend integration using REST APIs with persistent database storage.
 
 
-📌 About This Project
+#📌 About This Project
 
 This project is built to understand how a full stack application works end-to-end:
 
@@ -19,14 +19,15 @@ Data stored in MySQL
 
 
 
-🧩 Tech Stack
-🎨 Frontend
+## Tech Stack
+
+# 🎨 Frontend
 
 React.js
 
 Axios
 
-⚙️ Backend
+### ⚙️ Backend
 
 Spring Boot
 
@@ -34,11 +35,13 @@ Spring Data JPA (Hibernate)
 
 Maven
 
-🗄️ Database
+# 🗄️ Database
 
 MySQL
 
-🛠️ Tools Used
+
+
+## 🛠️ Tools Used
 
 IntelliJ IDEA
 
@@ -49,7 +52,7 @@ Postman
 MySQL Workbench
 
 
-✨ Features
+#### ✨ Features
 
 ✔️ View all users in a table
 ✔️ Add a new user
