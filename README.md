@@ -145,6 +145,6 @@ org.Usman.fullstack
 
 ## 👨‍💻 Author
 
-**Usman**
+### Usman
 Engineering Student | Full Stack Developer 🚀
 
