@@ -76,7 +76,7 @@ Data stored in MySQL
             ↓ JPA / Hibernate
 3.        MySQL Database
 
-**---** 
+---
 
 ## ⚙️ Backend Configuration
 
@@ -95,7 +95,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 Backend starts at:
 👉 http://localhost:8080
 
-**---**
+---
 
 ## 💻 Frontend Setup
 
@@ -109,7 +109,7 @@ Frontend runs at:
 👉 http://localhost:3000
 
 
-**---**
+---
 
 ## 🔌 REST API Endpoints
 
@@ -130,7 +130,7 @@ DELETE	   /user/{id}	Delete user
   "name": "Usman",
   "username": "usman123",
   "email": "usman@email.com"
-
+}
 --- 
 
 ## 🗂️ Backend Package Structure
