@@ -5,7 +5,7 @@ This repository contains a Full Stack User Management Web Application that perfo
 It demonstrates complete frontend–backend integration using REST APIs with persistent database storage.
 
 
-#📌 About This Project
+## 📌 About This Project
 
 This project is built to understand how a full stack application works end-to-end:
 
@@ -17,65 +17,70 @@ Database operations handled using JPA (Hibernate)
 
 Data stored in MySQL
 
-
+---
 
 ## Tech Stack
 
-# 🎨 Frontend
+### 🎨 Frontend
 
-React.js
+- React.js
 
-Axios
+- Axios
 
 ### ⚙️ Backend
 
-Spring Boot
+- Spring Boot
 
-Spring Data JPA (Hibernate)
+- Spring Data JPA (Hibernate)
 
-Maven
+- Maven
 
-# 🗄️ Database
+### 🗄️ Database
 
-MySQL
+- MySQL
 
-
+---
 
 ## 🛠️ Tools Used
 
-IntelliJ IDEA
+* IntelliJ IDEA
 
-VS Code
+* VS Code
 
-Postman
+* Postman
 
-MySQL Workbench
+* MySQL Workbench
 
+---
 
-#### ✨ Features
+## ✨ Features
 
-✔️ View all users in a table
-✔️ Add a new user
-✔️ View individual user details
-✔️ Edit user information
-✔️ Delete users
-✔️ Exception handling for user not found
-✔️ REST API communication between frontend and backend
-
-
-🏗️ Application Architecture
+- ✔️ View all users in a table
+- ✔️ Add a new user
+- ✔️ View individual user details
+- ✔️ Edit user information
+- ✔️ Delete users
+- ✔️ Exception handling for user not found
+- ✔️ REST API communication between frontend and backend
 
 
-React (Frontend - localhost:3000)
+---
+
+
+## 🏗️ Application Architecture
+
+
+1. **React** (Frontend - localhost:3000)
             ↓ HTTP Requests
-Spring Boot (Backend - localhost:8080)
+2. **Spring Boot** (Backend - localhost:8080)
             ↓ JPA / Hibernate
-        MySQL Database
+3.        MySQL Database
 
+**---** 
 
-⚙️ Backend Configuration
+## ⚙️ Backend Configuration
 
-📍 File location:
+**📍 File location:**
 src/main/resources/application.properties
 
 spring.jpa.hibernate.ddl-auto=update
@@ -85,27 +90,28 @@ spring.datasource.password=mysql
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 
-▶ Run the backend using FullstackBackendApplication.java
+**▶ Run the backend using FullstackBackendApplication.java**
 
 Backend starts at:
 👉 http://localhost:8080
 
+**---**
 
-💻 Frontend Setup
+## 💻 Frontend Setup
 
 Inside the React project folder:
 
-npm install
-npm start
+- npm install
+- npm start
 
 
 Frontend runs at:
 👉 http://localhost:3000
 
 
+**---**
 
-
-🔌 REST API Endpoints
+## 🔌 REST API Endpoints
 
 
 Method	   Endpoint	Description
@@ -118,27 +124,27 @@ DELETE	   /user/{id}	Delete user
 
 
 
-🧪 Sample JSON (POST / PUT)
+### 🧪 Sample JSON (POST / PUT)
 
 {
   "name": "Usman",
   "username": "usman123",
   "email": "usman@email.com"
 
+--- 
 
-
-🗂️ Backend Package Structure
+## 🗂️ Backend Package Structure
 
 org.Usman.fullstack
- ├── controller
- ├── model
- ├── repository
- ├── exception
- └── FullstackBackendApplication
+ - ├── controller
+ - ├── model
+ - ├── repository
+ - ├── exception
+ - └── FullstackBackendApplication
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Usman
+**Usman**
 Engineering Student | Full Stack Developer 🚀
 
