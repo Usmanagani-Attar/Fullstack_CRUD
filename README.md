@@ -129,7 +129,7 @@ DELETE	   /user/{id}	Delete user
 {
   "name": "Usman",
   "username": "usman123",
-  "email": "usman@email.com"
+  "email": "usman@Gmail.com"
 }
 --- 
 
