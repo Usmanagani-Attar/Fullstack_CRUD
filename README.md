@@ -113,24 +113,23 @@ Frontend runs at:
 
 ## 🔌 REST API Endpoints
 
-
-Method	   Endpoint	Description
-
-GET	   /users	Get all users
-GET	   /user/{id}	Get user by ID
-POST	   /user	Create new user
-PUT	   /user/{id}	Update user
-DELETE	   /user/{id}	Delete user
-
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | /users        | Get all users |
+| GET    | /user/{id}    | Get user by ID |
+| POST   | /user         | Create new user |
+| PUT    | /user/{id}    | Update user |
+| DELETE | /user/{id}    | Delete user |
 
 
 ### 🧪 Sample JSON (POST / PUT)
-
+```json
 {
   "name": "Usman",
   "username": "usman123",
-  "email": "usman@Gmail.com"
+  "email": "usman@gmail.com"
 }
+```
 --- 
 
 ## 🗂️ Backend Package Structure
